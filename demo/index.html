@@ -4,12 +4,27 @@
 <meta charset="utf-8">
 <title>Json Menu Maker</title>
 
-<script type="text/javascript" src="../jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="../menu-maker.js"></script>
+<script type="text/javascript" src="../assets/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="../menu-maker.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	$('#menu').jsonMenuManker('menu.json','menu',1);
-	$('#footer').jsonMenuManker('menu.json','footer',0);
+	$('#menu').jsonMenuMaker({
+		json : 'menu.json',
+		node : 'menu'
+	});
+
+/*	
+	// menu2.json is a numeric array - no key.
+	$('#menu').jsonMenuMaker({
+		json : 'menu2.json'
+	});
+*/
+
+	$('#footer').jsonMenuMaker({
+		json : 'menu.json',
+		node : 'footer',
+		nested : 0
+	});
 });
 </script>
 <link href="demo.css" rel="stylesheet" type="text/css">
