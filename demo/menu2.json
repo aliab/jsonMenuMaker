@@ -1,0 +1,9 @@
+[
+	{"name":"Home","href":"#1"},
+	{"name":"Curriculum Vitae","href":"#2"},
+	{"name":"Research","href":"#3"},
+	{"name":"Publications","href":"#4"},
+	{"name":"Links","href":"#5"},
+	{"name":"Teaching","href":"#6","sub":[ {"name":"sub01","href":"#1","sub":[{"name":"sub01","href":"#1"}] },{"name":"sub02","href":"#2"},{"name":"sub03","href":"#3"} ]},
+	{"name":"Contact","href":"#7"}
+]
