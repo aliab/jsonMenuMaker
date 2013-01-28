@@ -1,0 +1,26 @@
+##################
+## Sublime Text 2
+##################
+
+# Sublime Text project files
+*.sublime-project
+*.sublime-workspace
+
+
+##################
+## Windows
+##################
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+##################
+## Mac OS
+##################
+
+# Mac crap
+.DS_Store
